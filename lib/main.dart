@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Basic Phrases'),
+        title: const Text('Basic Phrases'),
         centerTitle: true,
         backgroundColor: Colors.lightBlue,
       ),
@@ -42,42 +42,42 @@ class _HomePageState extends State<HomePage> {
                 children: <Widget>[
                   GestureDetector(
                     onTap: () async {
-                        await player.play(AssetSource('01.mp3'));
+                      await player.play(AssetSource('01.mp3'));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                        gradient: LinearGradient(
+                        gradient: const LinearGradient(
                           colors: [Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
                         borderRadius: BorderRadius.circular(8),
                       ),
-                      margin: EdgeInsets.all(8),
-                      child: Center(
+                      margin: const EdgeInsets.all(8),
+                      child: const Center(
                         child: Text('Salut'),
                       ),
                     ),
                   ),
                   GestureDetector(
-                    onTap: () async{
-                        await player.play(AssetSource('assets/03.mp3'));
+                    onTap: () async {
+                      await player.play(AssetSource('assets/03.mp3'));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                        gradient: LinearGradient(
+                        gradient: const LinearGradient(
                           colors: [Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
                         borderRadius: BorderRadius.circular(8),
                       ),
-                      margin: EdgeInsets.all(8),
-                      child: Center(
+                      margin: const EdgeInsets.all(8),
+                      child: const Center(
                         child: Text('Ma numesc'),
                       ),
                     ),
@@ -90,15 +90,15 @@ class _HomePageState extends State<HomePage> {
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                        gradient: LinearGradient(
+                        gradient: const LinearGradient(
                           colors: [Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
                         borderRadius: BorderRadius.circular(8),
                       ),
-                      margin: EdgeInsets.all(8),
-                      child: Center(
+                      margin: const EdgeInsets.all(8),
+                      child: const Center(
                         child: Text('Cum esti?'),
                       ),
                     ),
@@ -111,15 +111,15 @@ class _HomePageState extends State<HomePage> {
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                        gradient: LinearGradient(
+                        gradient: const LinearGradient(
                           colors: [Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
                         borderRadius: BorderRadius.circular(8),
                       ),
-                      margin: EdgeInsets.all(8),
-                      child: Center(
+                      margin: const EdgeInsets.all(8),
+                      child: const Center(
                         child: Text('Sunt bine'),
                       ),
                     ),
@@ -140,15 +140,15 @@ class _HomePageState extends State<HomePage> {
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                        gradient: LinearGradient(
+                        gradient: const LinearGradient(
                           colors: [Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
                         borderRadius: BorderRadius.circular(8),
                       ),
-                      margin: EdgeInsets.all(8),
-                      child: Center(
+                      margin: const EdgeInsets.all(8),
+                      child: const Center(
                         child: Text('Salut(germana)'),
                       ),
                     ),
@@ -161,15 +161,15 @@ class _HomePageState extends State<HomePage> {
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                        gradient: LinearGradient(
+                        gradient: const LinearGradient(
                           colors: [Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
                         borderRadius: BorderRadius.circular(8),
                       ),
-                      margin: EdgeInsets.all(8),
-                      child: Center(
+                      margin: const EdgeInsets.all(8),
+                      child: const Center(
                         child: Text('Ma numesc(germana)'),
                       ),
                     ),
@@ -182,15 +182,15 @@ class _HomePageState extends State<HomePage> {
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                        gradient: LinearGradient(
+                        gradient: const LinearGradient(
                           colors: [Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
                         borderRadius: BorderRadius.circular(8),
                       ),
-                      margin: EdgeInsets.all(8),
-                      child: Center(
+                      margin: const EdgeInsets.all(8),
+                      child: const Center(
                         child: Text('Cum esti?(germana)'),
                       ),
                     ),
@@ -203,15 +203,15 @@ class _HomePageState extends State<HomePage> {
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                        gradient: LinearGradient(
+                        gradient: const LinearGradient(
                           colors: [Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
                         borderRadius: BorderRadius.circular(8),
                       ),
-                      margin: EdgeInsets.all(8),
-                      child: Center(
+                      margin: const EdgeInsets.all(8),
+                      child: const Center(
                         child: Text('Sunt bine(germana)'),
                       ),
                     ),
