@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +23,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final player = AudioPlayer();
+  final AudioPlayer player = AudioPlayer();
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: SingleChildScrollView(
         child: Row(
-          children: [
+          children: <Widget>[
             Expanded(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
                       height: 200,
                       decoration: BoxDecoration(
                         gradient: const LinearGradient(
-                          colors: [Colors.greenAccent, Colors.deepPurple],
+                          colors: <Color>[Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
                       height: 200,
                       decoration: BoxDecoration(
                         gradient: const LinearGradient(
-                          colors: [Colors.greenAccent, Colors.deepPurple],
+                          colors: <Color>[Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
@@ -91,7 +91,7 @@ class _HomePageState extends State<HomePage> {
                       height: 200,
                       decoration: BoxDecoration(
                         gradient: const LinearGradient(
-                          colors: [Colors.greenAccent, Colors.deepPurple],
+                          colors: <Color>[Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
@@ -112,7 +112,7 @@ class _HomePageState extends State<HomePage> {
                       height: 200,
                       decoration: BoxDecoration(
                         gradient: const LinearGradient(
-                          colors: [Colors.greenAccent, Colors.deepPurple],
+                          colors: <Color>[Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
@@ -141,7 +141,7 @@ class _HomePageState extends State<HomePage> {
                       height: 200,
                       decoration: BoxDecoration(
                         gradient: const LinearGradient(
-                          colors: [Colors.greenAccent, Colors.deepPurple],
+                          colors: <Color>[Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
@@ -162,7 +162,7 @@ class _HomePageState extends State<HomePage> {
                       height: 200,
                       decoration: BoxDecoration(
                         gradient: const LinearGradient(
-                          colors: [Colors.greenAccent, Colors.deepPurple],
+                          colors: <Color>[Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
@@ -183,7 +183,7 @@ class _HomePageState extends State<HomePage> {
                       height: 200,
                       decoration: BoxDecoration(
                         gradient: const LinearGradient(
-                          colors: [Colors.greenAccent, Colors.deepPurple],
+                          colors: <Color>[Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
@@ -204,7 +204,7 @@ class _HomePageState extends State<HomePage> {
                       height: 200,
                       decoration: BoxDecoration(
                         gradient: const LinearGradient(
-                          colors: [Colors.greenAccent, Colors.deepPurple],
+                          colors: <Color>[Colors.greenAccent, Colors.deepPurple],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
